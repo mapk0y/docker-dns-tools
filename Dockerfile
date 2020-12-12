@@ -1,7 +1,7 @@
-FROM ruby:2.4-alpine
+FROM ruby:2.7-alpine
 
-ENV GOSS_VERSION 0.3.4
-ENV ROADWORKER_VERSION 0.5.8
+ENV GOSS_VERSION 0.3.15
+ENV ROADWORKER_VERSION 0.5.14
 
 RUN set -ex \
  && apk add --no-cache --virtual .builddeps \
